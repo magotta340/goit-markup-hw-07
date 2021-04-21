@@ -298,11 +298,6 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
-    url(../images/banner.jpg);
 }
 
 .hero__overlay {
@@ -315,7 +310,7 @@ img {
       var(--hero-overlay),
       var(--hero-overlay)
     ),
-    url(../images/hero.jpg);
+    url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
